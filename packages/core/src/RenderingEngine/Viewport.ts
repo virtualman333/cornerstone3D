@@ -157,7 +157,6 @@ class Viewport {
     this.suppressEvents = props.defaultOptions.suppressEvents
       ? props.defaultOptions.suppressEvents
       : false;
-    //this.options = structuredClone(props.defaultOptions);
     this.options = deepClone(props.defaultOptions);
     this.isDisabled = false;
   }
